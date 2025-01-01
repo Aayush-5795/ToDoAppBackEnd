@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://azuretodoappbe-b6h7ftgbgufkh7bj.canadacentral-01.azurewebsites.net")
 public class TodoController {
     private TodoService todoService;
 
